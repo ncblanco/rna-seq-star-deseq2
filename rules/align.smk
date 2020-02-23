@@ -14,7 +14,7 @@ def get_fq(wildcards):
 
 rule align:
     input:
-        sample=get_fq()
+        sample=get_fq
     output:
         # see STAR manual for additional output files
         "star/{sample}-{unit}/Aligned.out.bam",
