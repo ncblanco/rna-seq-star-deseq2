@@ -17,8 +17,9 @@ if (snakemake@threads > 1) {
 cts <- read.table(snakemake@input[["counts"]], header=TRUE, row.names="gene", check.names=FALSE)
 coldata <- read.table(snakemake@params[["samples"]], header=TRUE, row.names="sample", check.names=FALSE)
 
-#now they are forced to have the same order 
-coldata <- coldata[match(colnames(cts), rownames(coldata)), ]
+#now they are forced to have the same order
+coldata$samples <- rownames(coldata)
+coldata <- coldata[match(colnames(cts), coldata$samples), ]
 
 dds <- DESeqDataSetFromMatrix(countData=cts,
                               colData=coldata,
