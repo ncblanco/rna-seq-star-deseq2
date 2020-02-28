@@ -1,4 +1,10 @@
 sample	unit	fq1	fq2
-A	lane1	A.1.fq.gz	A.2.fq.gz
-A	lane2	A2.1.fq.gz	A2.2.fq.gz
-B	rep1	B.1.fq.gz	B.2.fq.gz
+N1	rep1	/home/user1/RNA_seq_course2020/FASTQ/SRR7889581.fastq.gz	
+N2	rep1	/home/user1/RNA_seq_course2020/FASTQ/SRR7889582.fastq.gz	
+N3	rep1	/home/user1/RNA_seq_course2020/FASTQ/SRR7889583.fastq.gz	
+N4	rep1	/home/user1/RNA_seq_course2020/FASTQ/SRR7889584.fastq.gz	
+N5	rep1	/home/user1/RNA_seq_course2020/FASTQ/SRR7889585.fastq.gz	
+G1	rep1	/home/user1/RNA_seq_course2020/FASTQ/SRR7889599.fastq.gz	
+G2	rep1	/home/user1/RNA_seq_course2020/FASTQ/SRR7889600.fastq.gz	
+G3	rep1	/home/user1/RNA_seq_course2020/FASTQ/SRR7889597.fastq.gz	
+G4	rep1	/home/user1/RNA_seq_course2020/FASTQ/SRR7889598.fastq.gz	
