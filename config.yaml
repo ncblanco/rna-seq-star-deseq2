@@ -11,15 +11,15 @@ units: units.tsv
 
 trimming:
   # skip trimming: false or true
-  skip: false
+  skip: true
   # the sequencing adapter
   adapter: ACGGATCGATCGATCGATCGAT
 
 ref:
   # the STAR index
-  index: "path/to/star/index"
+  index: "/home/user1/rna-seq-star-deseq2/STAR_INDEX"
   # gtf file with transcripts
-  annotation: "path/to/annotation.gtf"
+  annotation: "/home/user1/RNA_seq_course2020/Gene_annotation/dm6.ensGene.gtf"
 
 pca:
   labels:
@@ -29,9 +29,9 @@ pca:
 diffexp:
   # contrasts for the deseq2 results method
   contrasts:
-    treated-vs-untreated:
-      - treated
-      - untreated
+    neurona-vs-glia:
+      - neurona
+      - glia
 
 params:
   star: ""
