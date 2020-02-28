@@ -84,7 +84,7 @@ dependencies:
   - r-rlang =0.1.2
   - r-rpart =4.1_10
   - r-rsqlite =2.0
-  - r-scales =0.4.1
+  - r-scales =0.5.0
   - r-snow =0.4_2
   - r-stringi =1.1.2
   - r-stringr =1.2.0
